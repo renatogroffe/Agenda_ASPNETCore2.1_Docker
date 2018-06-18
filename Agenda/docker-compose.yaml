@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  agenda:
+    image: agenda-alpine
+    build:
+      context: .
+    ports:
+      - "30000:80"
